@@ -2,9 +2,15 @@
 // a noun and count.
 function pluralize(noun, count) {
   // TODO: Implement this function.
-  const result = undefined;
-  return result;
+  const pluralize = (noun,count)
+  
+  return `${count}${noun}`;
 }
+
+
+console.log(pluralize('cat', 5)); // return result 
+console.log(pluralize('dog', 1)); // return result 
+
 
 // DO NOT CHANGE ANYTHING BELOW THIS LINE.
 
